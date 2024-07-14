@@ -32,7 +32,7 @@ const Backend = () => {
                     ))}
                 </div>
                 <div className="skills__group">
-                    {skills.slice(3).map((skill, index) => (
+                    {skills.slice(4).map((skill, index) => (
                         <SkillItem key={index + 3} {...skill} />
                     ))}
                 </div>
