@@ -3,11 +3,13 @@ import React from "react";
 const Backend = () => {
     const skills = [
         { name: "MongoDB", level: "Intermediate" },
-        { name: "Node Js", level: "Basic" },
+        { name: "Node Js", level: "Intermediate" },
         { name: "MySQL", level: "Intermediate" },
         { name: "SQL", level: "Intermediate" },
         { name: "Express", level: "Intermediate"},
-        { name: "Postman", level: "Intermediate"}
+        { name: "Postman", level: "Intermediate"},
+        { name: "PostgreSQL", level: "Intermediate"},
+        { name: "Puppeteer", level: "Basic"},
     ];
 
     const SkillItem = ({ name, level }) => (
