@@ -27,7 +27,7 @@ const Backend = () => {
             <h3 className="skills__title">Backend Developer</h3>
             <div className="skills__box">
                 <div className="skills__group">
-                    {skills.slice(0, 3).map((skill, index) => (
+                    {skills.slice(0, 4).map((skill, index) => (
                         <SkillItem key={index} {...skill} />
                     ))}
                 </div>
